@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200;300;400;500;600;700&family=Niramit:wght@300;400;500;600;700&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Roboto Mono, Arial;
+}
+
+body {
+  background: rgba(64,66,88,255);
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+/* Scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* background: #f1f1f1; */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    /* background: #888; */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    /* background: #555; */
+  }
+
+/* placeholder */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+input:focus::-webkit-input-placeholder 
+{
+    color: transparent;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+/* class : hover */
+.new-task:hover {
+  background-color: #474e68;
+  transition: 0.2s;
+}
+

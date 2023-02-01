@@ -1,0 +1,145 @@
+.card-container {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    row-gap: 10px;
+    column-gap: 40px;
+    padding-left: 60px;
+}
+
+.card {
+    background: #474e68;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #323749;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 18px;
+}
+.card-title {
+    font-weight: 500;
+    font-size: 18px;
+}
+.icon-box {
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+.person-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 90px;
+}
+.person-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    padding: 2px 4px 2px 4px;
+    border-radius: 2px;
+}
+.person-img {
+    width: 22px;
+    border-radius: 50%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.dead-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    padding-top: 15px;
+}
+.dead-line-title {
+    width: 85px;
+    padding-left: 9px;
+}
+.dead-line-now {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    padding: 2px 4px 2px 4px;
+    border-radius: 2px;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+.date-calender {
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background: #2b2f3e;
+}
+.status {
+    display: flex;
+    flex-direction: row;
+}
+.status-now {
+    padding-left: 10px;
+    color: yellow;
+}
+
+/* transtion */
+
+.person-icon:hover, .dead-line-now:hover,
+.date-calender:hover, .status-now:hover,
+.chat-icon:hover, .new-task:hover,
+.task-form button:hover {
+    cursor: pointer;
+}
+
+.task-form button:hover {
+    background: #292937;
+    transition: 0.2s;
+}
+
+.person-icon:hover ,.dead-line-now:hover{
+    background: #6c7186;
+    transition: 0.2s;
+}
+
+.date-calender:hover {
+    background-color: #242734;
+    transition: 0.2s;
+}
+
+
+
+
